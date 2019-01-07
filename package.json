@@ -1,0 +1,24 @@
+{
+  "name": "ecoballjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "node-fetch": "^2.3.0"
+  },
+  "devDependencies": {
+    "keccakjs": "^0.2.3",
+    "mocha": "^5.2.0",
+    "secp256k1": "^3.6.0",
+    "babel-cli": "^6.22.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-0": "^6.16.0"
+  },
+  "scripts": {
+    "test": "mocha",
+    "build": "babel src --source-root ./ -d ./dist"
+  },
+  "author": "alexneon",
+  "license": "ISC"
+}
