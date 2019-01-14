@@ -1,4 +1,4 @@
-##代码运行
+## 代码运行
 //安装依赖
 npm install
 
@@ -9,8 +9,7 @@ npm run test
 npm run build
 
 ## Basic Usage
-let Ecoball = require('ecoballjs')
-
+```let Ecoball = require('ecoballjs')
 
 // 节点地址：'http://192.168.8.62:20679'
 let ecoball = new Ecoball({'http://192.168.8.62:20679'})
@@ -45,3 +44,4 @@ let signatureInfo = ecoball.signature(msg,privitkey)
    *  @signatureInfo {签名信息}
    */
  ecoball.transcation(method,url,signatureInfo)
+```
